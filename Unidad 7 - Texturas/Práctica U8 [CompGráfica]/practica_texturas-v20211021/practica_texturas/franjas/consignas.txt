@@ -1,0 +1,12 @@
+Práctica: Textura y transparencias
+Este no es un práctico en el que deban producir código, es solo un ejemplo para mostrarles como se puede utilizar el alpha test sobre los fragmentos con texturas para obtener efectos de invisibilidad en ciertas partes de la imagen.
+
+Con "ctrl" pulsado y click izquierdo del mouse, al moverlo, la posición horizontal define la fase y la vertical la escala de la textura.
+
+Analizar:
+El funcionamiento de alpha test con las texturas.
+La "distancia" al splane que define s(x) para la textura: s = as x + ds.
+
+Extra:
+Podrían aprender, además, algo del efecto Moire si analizan lo que sucede con as grande y de caos si as es mucho más grande
+

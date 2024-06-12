@@ -1,0 +1,26 @@
+Práctica: Aplicación de Textura
+
+Analizar:
+- el comportamiento de distintos modos de generación.
+- el comportamiento de repetición y clamping de texturas.
+- el comportamiento de distintos tipos de filtros.
+- el comportamiento de distintos modos de mezcla.
+- el comportamiento de distintos modos de mezcla con transparencia habilitada.
+- ¿cómo combinar textura e iluminación?
+
+
+Todo lo que puede ser interesenta modificar de la aplicación de textura, 
+está definido en tex_settings.*
+
+En tex_settings.h encontrará descripción de cada atributo, de los posibles 
+valores, y las combinaciones sugeridas.
+
+Dentro del struct, los atributos más relevantes son gen_mode_*, plane_*, wrap_*, 
+m*n_filter, tex_env_mode.
+
+
+Si tienen ZinjaI actualizado (v20191006 o posterior), pueden usar el truco de 
+editar el struct "tex_settings" durante la ejecución. Al iniciar la depuración 
+veran las instrucciones.
+
+

@@ -1,0 +1,13 @@
+# Blender 3.5.0 MTL File: 'HoloDeck.blend'
+# www.blender.org
+
+newmtl Objet
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+illum 2
+map_Kd C:/Objet_baseColor.png
+map_Ke C:/Objet_emissive.png
+map_d C:/Objet_baseColor.png
+map_Bump -bm 1.000000 C:/Objet_normal.png

@@ -1,0 +1,24 @@
+Este ejemplo es para experimentar con la triangulación Delaunay y con el 
+diagrama de Voronoi.
+- Haciendo click con el botón derecho se puede agregar o mover "nodos" 
+  ("sitios" del diagrama, o "vértices" de la triangulación).
+- Con las teclas V, C y T se muestran/ocultan el diagrama (V), las 
+  circunferencias (C) y la triangulación (T). 
+- Con la B se borran todos los putnos, con Delete solo el seleccionado.
+
+El algoritmo de construcción se basa en la técnica de swap de diagonales.
+Cuando se agrega un punto:
+	1. se busca en qué triángulo cae
+	2. se lo conecta con los vértices de ese triángulo, y así se obtiene una 
+	   triangulación que es válida pero no Delaunay. 
+	3. Para hacerla Delaunay se aplica el test del círculo (dado el círculo de 
+	   un triángulo, ningún vértice de triángulo vecino debe estar dentro) y 
+		 cuando falla se hace un swap de diagonales: considerando a un triángulo 
+		y su vecino como un cuadrilátero, la arista en común es una diagonal, 
+		se intercambia por la otra diagonal posible; y el test se repite 
+		recursivamente para los nuevos triángulos hasta que nada cambie.
+
+El programa en realidad comienza con 4 nodos muy "lejos" (fuera de la ventana)
+formando un cuadrilátero gigante, de forma de tener una primer triangulacion 
+con la que empezar; pero en el display_cb no se dibujan las aristas 
+correspondientes a esos 4 nodos.

@@ -1,0 +1,5 @@
+El modelo de Homero está tomado de https://github.com/bxbrenden/Homer-3D-Blender.
+Se exportó a obj la malla del homero original del archivo de Blender de ese proyecto.
+
+El modelo original es de autoría del usuario bxbrenden, y tiene licencia Creative 
+Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/)

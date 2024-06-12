@@ -1,0 +1,24 @@
+La idea de estos proyectos no pasa por analizar el código, sino por usar
+los programas resultante como ayuda para entender/interpretar algunos
+conceptos de teoría.
+
+
+Demos:
+
+* bilineal: permite editar un quad y comparar la diferencia entre 
+            interpolar una grilla de puntos interiores y sus colores 
+            mediante interpolación bilineal vs hiperbólica vs dividir 
+            en dos triangulos y utilizar afín en cada uno.
+
+* ffdemo: muestra un triángulo en 2d, y un punto variable, todo editable;
+          y su versión en 3d con los vectores que usamos para calcular las 
+          areas y las ffs.
+
+
+Otras carpetas:
+
+* common: fuentes comunes a varios proyectos
+
+* tmp: carpeta con los objetos y binarios que se crean al compilar estos
+       demos
+
